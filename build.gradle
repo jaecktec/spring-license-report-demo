@@ -61,5 +61,5 @@ import com.github.jk1.license.filter.ReduceDuplicateLicensesFilter
 licenseReport{
 	filters = [new LicenseBundleNormalizer(), new ReduceDuplicateLicensesFilter()]
 	renderers = [new InventoryHtmlReportRenderer()]
-	configurations = ['releaseRuntimeClasspath']
+	configurations = ['runtimeClasspath']
 }
